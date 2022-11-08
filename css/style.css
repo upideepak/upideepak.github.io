@@ -1,0 +1,134 @@
+html, body {
+	background-color: #fff;
+	color: #444;
+	font-family: "Lato", Arial, sans-serif;
+	margin: 0;
+}
+
+/* header styles */
+header{
+	border-top: 3px solid #ff6633;
+}
+header #logo{
+	margin: 2px 0 0;
+	display: inline-block;
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 24px;
+	line-height: 1.6;
+	font-weight: bold;
+}
+header #logo a{
+	color: #444;
+	text-decoration: none;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+/*header ul.nav>li {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+header ul.nav>li a {
+	color: #999;
+	text-decoration: none;
+}
+header ul.nav>li.active a {
+	color: #fff;
+}
+header ul.nav>li a:hover {
+	color: #333;
+}
+*/
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #27642f;
+}
+
+
+/* article styles */
+article{
+	font-size: 15px;
+    line-height: 1.7;
+    overflow: hidden;
+}
+
+.content > *:first-child {
+    margin-top: 0 !important;
+}
+article p, article blockquote, article ul, article ol, article dl, article table, article pre {
+    margin: 15px 0;
+}
+
+article .title-banner{
+	background: #27642f;
+	background-repeat: repeat;
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+    color: #000;
+	margin: 1em 0 15px;
+    padding: 0;
+    font-weight: bold;
+    line-height: 1.7;
+    cursor: text;
+    position: relative;
+	letter-spacing: normal;
+}
+
+article h1 {
+	color: #fff;
+    letter-spacing: -1px;
+    line-height: 1;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: normal;
+	padding: 50px 0;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, .15);
+}
+
+article h2 {
+    font-size: 2em;
+    border-bottom: 1px solid #eee;
+}
+
+
+article ul, article ol {
+	margin: 15px 0;
+    padding-left: 30px;
+}
+article ul{
+	list-style-type: disc;
+}
+
+article li{
+	display: list-item;
+	margin-bottom: 0.5rem;
+}
+
+content > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.copyright {
+    padding-top: 30px;
+    font-size: 14px;
+    color: #999;
+}
+
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 960px;
+}
+.navbar-nav{
+	float: right;
+}
+
+}
