@@ -17,7 +17,6 @@
 
 A simple web page which generates UPI deep link and a QRCode for the deep link. The deep link / QR Code when opened with any of the UPI app should populate the values for the user to complete the payment.
 
-* Source: [https://github.com/srikanthlogic/UPI-PayMeLinkGenerator](https://github.com/srikanthlogic/UPI-PayMeLinkGenerator)
 
 ##Disclaimer
 * This page only provides help to raise awareness on UPI / other cashless systems. For UPI QRCode, Please verify the details before making the payment inside the UPI app.
