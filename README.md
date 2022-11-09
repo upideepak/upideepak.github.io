@@ -1,4 +1,4 @@
-# [CashlessConsumer](http://srikanthlogic.github.io/CashlessConsumer/FAQ)
+# [QRify](http://vipullsingh.github.io/Qrify/FAQ)
 
 ## Links
 * UPI [https://en.wikipedia.org/wiki/Unified_Payments_Interface](https://en.wikipedia.org/wiki/Unified_Payments_Interface)
